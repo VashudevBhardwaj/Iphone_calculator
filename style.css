@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header div{
+    margin: 2rem 40% ;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+    display:inline-block;
+    height: 3rem;
+    width: 17rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+main>div{
+    width:275px;
+    height: 533px;
+    background-color: rgb(0,0,0,255);
+    margin-left: 40%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper{
+    margin: 7rem 0rem 0.8rem 0.15rem;
+    width: 98%;
+    height: 10%;
+}
+
+.lower{
+    border-radius: 2rem;
+    width: 100%;
+    height: 65%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.btn {
+    padding: auto;
+    background-color: rgb(42,42,44,255);
+    border-radius: 50%;
+    aspect-ratio: 1 / 1; 
+    width: 80%;         
+    height: auto;      
+    justify-self: center; 
+    align-self: center;  
+    cursor: pointer;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.row1{
+    background-color: rgb(92,92,94,255);
+}
+
+.col1{
+    background-color: rgb(255,159,10,255);
+}
+
+.iconfont{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.flex_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+p{
+    padding-top: 0.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+}
+
+.p1{
+    margin-right: 0.3rem;
+    padding-top: 0.5rem;
+    text-align: right;
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+
+.flash{
+    background-color: rgb(114,114,114,255);
+    box-shadow: 0 0 20px rgb(114,114,114,255);
+    transition: none;
+}
+
+.col_flash{
+    background-color: rgb(251,199,141,255);
+    box-shadow: 0 0 20px rgb(251,199,141,255);
+    transition: none;
+}
